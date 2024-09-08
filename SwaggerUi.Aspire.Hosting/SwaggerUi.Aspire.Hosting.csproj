@@ -6,6 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
 	<ItemGroup>
 	  <PackageReference Include="Aspire.Hosting" Version="8.2.0" />
       <PackageReference Include="Yarp.ReverseProxy" Version="2.2.0" />
